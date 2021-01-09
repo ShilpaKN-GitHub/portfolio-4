@@ -1,0 +1,111 @@
+h1 {
+    color: white;
+    margin: 30px;
+    padding: 30px;
+}
+
+p, h2
+{
+    text-align: center;
+}
+
+body
+{
+    background-color: #dad6d6;
+}
+
+a:link
+{
+    color: white;
+}
+
+a:hover
+{
+    color: red !important;
+}
+
+a:active
+{
+    color: blue !important;
+}
+
+a:visited
+{
+    color: white;
+}
+
+.header *
+{
+    margin: 20px;
+    padding: 20px;
+}
+
+.header a
+{
+    font-size: 20px;
+}
+
+.header
+{
+    border: solid;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu
+{
+    margin-right: 30px;
+}
+
+.menu a
+{
+    margin-left: 20px;
+}
+
+.item
+{
+    position: relative;
+    padding: 1em;
+}
+
+.item p
+{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    opacity:0;
+}
+
+.item:hover p
+{
+    opacity: 1;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.item:hover img
+{
+    opacity: 0.33;
+}
